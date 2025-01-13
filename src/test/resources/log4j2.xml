@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration status="WARN">
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+    <Appenders>
+        <!-- Console appender is commented out -->
+        <!-- <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH.mm.ss.SSS}[%t]%-5level%logger{36}-%msg%n"/>
+        </Console> -->
+
+        <File name="File" fileName="${basePath}/auto.log">
+            <PatternLayout pattern="%d{HH.mm.ss.SSS}[%t]%-5level%logger{36}-%msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="Info">
+            <!-- Console appender reference is commented out -->
+            <!-- <AppenderRef ref="Console"/> -->
+            <AppenderRef ref="File"/>
+        </Root>
+        <!-- Additional loggers can be added here -->
+        <!-- <Logger name="org.example" level="info">
+            <AppenderRef ref="File"/>
+        </Logger> -->
+    </Loggers>
+</configuration>

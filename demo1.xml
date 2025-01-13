@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tests>
+	<test>
+		<username>Admin</username>
+		<password>admin123</password>
+	</test>
+	<test>
+		<username>donhere1</username>
+		<password>don@123</password>
+	</test>
+	<test>
+		<username>donhere2</username>
+		<password>don@123</password>
+	</test>	
+<result>Login successful_Admin:admin123</result><result>Login unsuccessful_donhere1:don@123</result>
+	<result>Login unsuccessful_donhere2:don@123</result><result>Login successful_Admin:admin123</result><result>Login unsuccessful_donhere1:don@123</result><result>Login unsuccessful_donhere2:don@123</result></tests>
