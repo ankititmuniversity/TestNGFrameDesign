@@ -18,7 +18,8 @@
         <classes>
 <!--            <class name="tests.HomePageTest"/>-->
 <!--            <class name="utilities.XMLReadDemo"/>-->
-            <class name ="utilities.XMLWriteDemo"/>
+<!--            <class name ="utilities.XMLWriteDemo"/>-->
+            <class name ="utilities.TakeScreenShot"/>
         </classes>
     </test>
 
